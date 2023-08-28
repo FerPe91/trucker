@@ -27,7 +27,7 @@ const Formulario = (props) => {
 							</div>
 							<div className="modal-footer">
 									<button type="button" className="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-									<BotonModal  manejarClic={props.agregarChofer} texto='Guardar'/>
+									<BotonModal texto={"Agregar"}/>
 							</div>
 						</div>
 				</div>

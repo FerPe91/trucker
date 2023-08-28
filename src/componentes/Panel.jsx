@@ -1,8 +1,15 @@
 import React from 'react'
 import Boton from './Boton'
+import datosChoferes from '../helpers/datosChoferes'
+import { useState } from 'react'
 
 const Panel = (props) => {
-  const elementos=props.datos
+  const [datos, setDatosChoferes] = useState([]);
+  const agregarChofer = (nombre) => {
+    console.log("hijo de puta");
+    setDatosChoferes(datos.push(nombre));
+  };
+
   return (
     <div className='d-flex justify-content-between'>
 
@@ -10,16 +17,14 @@ const Panel = (props) => {
         <h2>{props.titulo}</h2>
         <div className='border rounded p-3'>
           <ul>
-            {elementos.map((elemento, index) => (
+            {datos.map((elemento, index) => (
             <li key={index}>{elemento}</li>
             ))}
           </ul>{
-              props.tieneBoton === 'true' ? <Boton boton="+"/> : null
+              props.tieneBoton === 'true' ? <Boton boton="+" datos={datosChoferes} /> : null
             }
-          
         </div>            
       </div>
-          
     </div>
 
   )
