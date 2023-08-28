@@ -1,4 +1,4 @@
-const DatosCarga = ['balcarce', 'tandil', 'salta'];
+const datosCarga = ['balcarce', 'tandil', 'salta'];
 
-export default DatosCarga;
+export default datosCarga;
 
