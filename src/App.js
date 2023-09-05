@@ -1,11 +1,11 @@
 import './App.css';
-import Panel from './componentes/Panel';
+import CardList from './componentes/CardList';
 
 
 function App(){  
   return (
-    <div className="d-flex justify-content-between">
-      <Panel titulo={"Choferes disponibles"} tieneBoton='true'/>
+    <div className=''>
+      <CardList titulo={"Choferes disponibles"} tieneBoton='true'/>
     </div>
   );
 }
