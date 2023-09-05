@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-size: 18px;
+  background-color: whitesmoke;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+  margin-bottom: 120px;
+}
+
+.contenedor-principal{
+  min-height:fit-content;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 25px 20px; 
+}
+
+.card-container{
+  height: fit-content;
+  width: 400px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.card-container div ul{
+  list-style: none;
+}
+
+

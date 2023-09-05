@@ -1,0 +1,50 @@
+.card{
+    background-color: yellow;
+    
+}
+
+.card-tittle{
+    height: fit-content;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.boton-agregar {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.boton-agregar span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+  
+.boton-agregar span:after {
+content: '➕';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+  
+.boton-agregar:hover span {
+padding-right: 25px;
+}
+  
+.boton-agregar:hover span:after {
+opacity: 1;
+right: 0;
+}
