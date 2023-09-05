@@ -4,8 +4,8 @@ import CardList from './componentes/CardList';
 
 function App(){  
   return (
-    <div className=''>
-      <CardList titulo={"Choferes disponibles"} tieneBoton='true'/>
+    <div className='contenedor-principal'>
+      <CardList />
     </div>
   );
 }

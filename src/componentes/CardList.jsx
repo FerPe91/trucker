@@ -3,9 +3,9 @@ import React from 'react'
 const CardList = () => {
 
   return (
-    <div className=''>
+    <div className='card'>
 
-      <h1>Hoolas</h1>
+      <h1>Choferes</h1>
     </div>
 
   )
